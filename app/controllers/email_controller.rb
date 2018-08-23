@@ -1,11 +1,12 @@
 class EmailController < ApplicationController
   def index
-    @emails = Email.all
+    @emails = Email.all.sort_by{|email| email.id}
   end
 
   def show_email
     @email = Email.find(params[:id])
-    @email = Email.find(params[:id])
+    @email.read = true
+    @email.save
     respond_to do |format|
       format.html { redirect_to '/' }
       format.js

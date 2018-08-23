@@ -9,4 +9,8 @@ $(document).ready(function() {
         .wrapInner('<div />')
         .children()
         .slideUp(function() { $(this).closest('tr').remove(); });
+
+  $('.table-body').fadeOut(300, function() {
+    this.remove();
+  });
 });

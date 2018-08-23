@@ -4,6 +4,7 @@ table {
 
 table.table-object {
   width: 40%;
+  max-width: 400px;
   tr {
 
     td:first-of-type {
@@ -48,9 +49,12 @@ th {
 .clickable {
   height: 50px;
   width: 100%;
+  max-width: 400px;
   text-align: center;
   vertical-align: middle;
-  padding-top: 12px;
+  overflow: hidden;
+  white-space: nowrap;
+  padding: 12px 12px 0 12px;
 }
 
 a {
@@ -71,4 +75,8 @@ a:hover {
 .object-row:hover {
   background-color: rgb(137, 187, 209);
   font-weight: 200;
+}
+
+.unread {
+  background-color: rgb(242, 234, 183) !important;
 }

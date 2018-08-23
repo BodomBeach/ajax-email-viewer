@@ -1,5 +1,7 @@
 $(document).ready(function() {
-  console.log("ready")
+  console.log("ready to show")
+  let id = <%= @email.id %>
+  let tr = $('.email-id:contains("' + id + '"):first').closest('tr').removeClass('unread');
 
   if ($('.table-body').length){
     $('.table-body').fadeOut(300, function() {
@@ -13,4 +15,6 @@ $(document).ready(function() {
     $('.mail-box').append(show_email);
     show_email.fadeIn(300)
   }
+
+
 });

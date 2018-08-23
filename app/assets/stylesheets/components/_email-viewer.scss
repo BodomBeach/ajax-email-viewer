@@ -1,0 +1,43 @@
+table.table-object {
+  width: 30%;
+  tr {
+    height: 50px;
+    td:first-of-type {
+      text-align: center;
+    }
+  }
+}
+
+table.table-body {
+  width: 60%;
+  height: 300px;
+  tr {
+    height: 100%;
+  }
+  tr:first-of-type {
+    height: 50px;
+  }
+}
+
+td {
+  border: 1px solid black;
+  padding: 0 0 0 0;
+}
+
+.td-body {
+  vertical-align: top;
+}
+
+.mail-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+th {
+  text-align: center;
+}
+
+.clickable {
+  height: 50px;
+  width: 100%;
+}

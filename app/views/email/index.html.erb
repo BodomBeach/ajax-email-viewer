@@ -1,0 +1,50 @@
+<div class="container">
+  <h2>Emails list:</h2>
+  <div class="mail-box">
+    <table class="table-object">
+
+      <tr>
+        <th>#</th>
+        <th>Object</th>
+      </tr>
+      <% @emails.each_with_index do |email, i| %>
+        <tr>
+          <td>
+              <%= i + 1 %>
+          </td>
+          <td>
+            <%= link_to show_email_path(id: @emails[i].id), remote: true do %>
+            <div class="clickable">
+              <%= @emails[i].object %>
+            </div>
+          <% end %>
+        </td>
+      </tr>
+    <% end %>
+  </table>
+</div>
+</div>
+
+<div class="container">
+<h2>Emails list:</h2>
+<div class="mail-box">
+  <table class="table-object">
+
+    <tr>
+      <th>#</th>
+      <th>Object</th>
+    </tr>
+    <% @emails.each_with_index do |email, i| %>
+      <tr>
+        <td><%= i + 1 %></td>
+        <td>
+          <%= link_to show_email_path(id: @emails[i].id), remote: true do %>
+          <p><%= @emails[i].object %></p>
+        <% end %>
+      </td>
+    </tr>
+  <% end %>
+
+</table>
+</div>
+</div>

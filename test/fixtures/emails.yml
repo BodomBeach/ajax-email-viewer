@@ -2,10 +2,8 @@
 
 one:
   object: MyString
-  content: MyString
   body: MyText
 
 two:
   object: MyString
-  content: MyString
   body: MyText

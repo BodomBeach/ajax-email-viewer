@@ -1,24 +1,17 @@
-# README
+# AJAX Email Viewer
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+AJAX requests training.
+Asynchronous DOM manipulations, without page reload.
+Possibilité de consulter, supprimer un email, et le marquer comme lu.
+Features: Able to consult, delete email, and mark it as read.
 
-Things you may want to cover:
+* bundle
 
-* Ruby version
+* rails db:create
 
-* System dependencies
+* rails db:migrate
 
-* Configuration
+* rails db:seed
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+By THP Grenoble: Nicolas Bertin, Ludovic Bourgoin, Tom Ballu
+And some lost sheeps: Hugo Payet, David Bellaga

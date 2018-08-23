@@ -1,5 +1,9 @@
+table {
+  margin: 10px;
+}
+
 table.table-object {
-  width: 30%;
+  width: 40%;
   tr {
     height: 50px;
     td:first-of-type {
@@ -26,6 +30,7 @@ td {
 
 .td-body {
   vertical-align: top;
+  padding: 20px;
 }
 
 .mail-box {
@@ -40,4 +45,27 @@ th {
 .clickable {
   height: 50px;
   width: 100%;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 12px;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.object-row, .body-row {
+  background-color: rgb(194, 231, 246);
+  font-size: 18px;
+  transition: 0.5s;
+}
+
+.object-row:hover {
+  background-color: rgb(137, 187, 209);
+  font-weight: 200;
 }

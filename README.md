@@ -1,5 +1,7 @@
 # AJAX Email Viewer
 
+App in production: https://ajax-email-viewer.herokuapp.com/
+
 AJAX requests training.
 Asynchronous DOM manipulations, without page reload.
 Features: Able to consult, delete email, and mark it as read.

@@ -5,10 +5,13 @@ table {
 table.table-object {
   width: 40%;
   tr {
-    height: 50px;
+
     td:first-of-type {
       text-align: center;
     }
+  }
+  tr:first-of-type {
+    height: 50px;
   }
 }
 

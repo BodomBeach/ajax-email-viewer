@@ -9,8 +9,8 @@
       </tr>
       <% @emails.each_with_index do |email, i| %>
         <tr class="object-row">
-          <td>
-              <%= i + 1 %>
+          <td class="email-id">
+              <%= email.id %>
           </td>
           <td>
             <%= link_to show_email_path(id: @emails[i].id), remote: true do %>

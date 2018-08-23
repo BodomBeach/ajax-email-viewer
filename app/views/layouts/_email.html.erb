@@ -9,6 +9,9 @@
       <td class="td-body">
         <p><strong><%= @email.object %><br></strong></p>
         <p><%= @email.body %></p>
+        <%= link_to destroy_email_path(id: @email.id), remote: true, method: :delete,  data: { confirm: 'Are you sure? you will regret this' } do %>
+          <button class="btn btn-danger">Delete email</button>
+        <% end %>
       </td>
     </tr>
   </tbody>

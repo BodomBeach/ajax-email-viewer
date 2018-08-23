@@ -2,7 +2,6 @@
 
 AJAX requests training.
 Asynchronous DOM manipulations, without page reload.
-Possibilité de consulter, supprimer un email, et le marquer comme lu.
 Features: Able to consult, delete email, and mark it as read.
 
 * bundle
